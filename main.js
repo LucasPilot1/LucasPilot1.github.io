@@ -595,6 +595,16 @@ const productos = [
         precio: 1000
     },
     {
+        id: "paparipio",
+        titulo: "Papa Cabello de Angel Premium x 1.000Gr",
+        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/y9wtRDoycim66qB.jpg",
+        categoria: {
+            nombre: "Calypso",
+            id: "calypso"
+        },
+        precio: 1000
+    },
+    {
         id: "molidatubo",
         titulo: "Carne Molida de Angus 70/30 - 4KGr x und promedio",
         imagen: "https://calypso-recursos.s3.amazonaws.com/productos/gwWHntBKWFSXabe.jpg",
