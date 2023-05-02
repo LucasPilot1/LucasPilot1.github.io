@@ -768,7 +768,7 @@ const productos = [
     },
     {
         id: "bolsallevar",
-        titulo: "Bolsas para llevar de 50 Kg",
+        titulo: "Bolsas para llevar de 5 Kg",
         imagen: "https://m.media-amazon.com/images/I/71f78fOC58L._AC_UL1500_.jpg",
         categoria: {
             nombre: "Casa del Panadero",
