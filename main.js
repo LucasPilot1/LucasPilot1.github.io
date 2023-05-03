@@ -13,7 +13,7 @@ const productos = [
     },
     {
         id: "tortilla",
-        titulo: "Tortilla",
+        titulo: "TORTILLA BURRITO CRACHOS 8 UND - 580 G",
         imagen: "https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000225.png?tr=w-449",
         categoria: {
             nombre: "D1",
@@ -215,6 +215,26 @@ const productos = [
         id: "lychees",
         titulo: "LYCHEES EN ALMÍBAR COOLTIVO 567 G",
         imagen: "https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12004167.png?tr=w-449",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
+    {
+        id: "arandanos",
+        titulo: "JUGO DE ARÁNDANOS TREE FRUTS 946 ML",
+        imagen: "https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000616.png?tr=w-449",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
+    {
+        id: "guantes",
+        titulo: "GUANTE DOMÉSTICO TIDY HOUSE TALLA M",
+        imagen: "https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000218.png?tr=w-449",
         categoria: {
             nombre: "D1",
             id: "d1"
@@ -523,6 +543,37 @@ const productos = [
         },
         precio: 1000
     },
+    // CARNES
+    {
+        id: "lomo",
+        titulo: "Carne de Res - Lomo Ancho x 2500 gr",
+        imagen: "https://fegasacruz.org/wp-content/uploads/2020/07/carne-1.jpg",
+        categoria: {
+            nombre: "Carnes",
+            id: "carnes"
+        },
+        precio: 1000
+    },
+    {
+        id: "cerdo",
+        titulo: "Carne de Cerdo - Palamilanesa",
+        imagen: "https://www.lafazenda.com.co/_/images/uploads/753_326_imagen_productos_20.png",
+        categoria: {
+            nombre: "Carnes",
+            id: "carnes"
+        },
+        precio: 1000
+    },
+    {
+        id: "pollo",
+        titulo: "Pollo - 5 kg de pechuga blanca congelada en bloque sin hueso",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/892138/24039413.jpg?v=637971252364270000",
+        categoria: {
+            nombre: "Carnes",
+            id: "carnes"
+        },
+        precio: 1000
+    },
     // Calypso
     {
         id: "francesa",
@@ -608,6 +659,16 @@ const productos = [
         id: "molidatubo",
         titulo: "Carne Molida de Angus 70/30 - 4KGr x und promedio",
         imagen: "https://calypso-recursos.s3.amazonaws.com/productos/gwWHntBKWFSXabe.jpg",
+        categoria: {
+            nombre: "Calypso",
+            id: "calypso"
+        },
+        precio: 1000
+    },
+    {
+        id: "salchicha",
+        titulo: "Salchicha Americana Super Hot Dog x 16Unidades",
+        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/k6ZZeEZjdQQtA8u.jpg",
         categoria: {
             nombre: "Calypso",
             id: "calypso"
@@ -739,6 +800,26 @@ const productos = [
         id: "p1",
         titulo: "Porta comida P1 Negro",
         imagen: "https://desechablesdiversos.com/enlinea/wp-content/uploads/2020/04/00878.jpg",
+        categoria: {
+            nombre: "Carrefour",
+            id: "carrefour"
+        },
+        precio: 1000
+    },
+    {
+        id: "vasoplastico16",
+        titulo: "Vaso desechable plástico 16oz",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ9HzqIP-BjWwf3U8eyOs6iFJ86g_tTFAmztkTxXiJ2g&s",
+        categoria: {
+            nombre: "Carrefour",
+            id: "carrefour"
+        },
+        precio: 1000
+    },
+    {
+        id: "vasoplastico",
+        titulo: "Vaso desechable plástico normal",
+        imagen: "https://supertiendascomunal.com/8315-thickbox_default/vaso-tami-12-onzas.jpg",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
