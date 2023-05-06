@@ -938,6 +938,16 @@ const productos = [
         precio: 1000
     },
     {
+        id: "domo",
+        titulo: "Vasos Domo con Tapa 16 oz",
+        imagen: "https://nuevoedenbolivar.com.ve/image/cache/catalog/vasos-con-tapa-domo-transparentes-50-unidades-D_NQ_NP_708915-MLV43839106215_102020-F-500x500.jpg",
+        categoria: {
+            nombre: "Casa del Panadero",
+            id: "panadero"
+        },
+        precio: 1000
+    },
+    {
         id: "gusanos",
         titulo: "GOMAS GRISSLY GUSANOS Grande",
         imagen: "https://copservir.vtexassets.com/arquivos/ids/771844/GOMAS-GRISSLY-GUSANOS_F.png?v=637951128673700000",
