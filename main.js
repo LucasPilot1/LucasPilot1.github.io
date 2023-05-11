@@ -241,6 +241,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "trapero",
+        titulo: "REPUESTO PARA TRAPERO TIDY HOUSE 1 UND",
+        imagen: "https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000723.png?tr=w-449",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
     // OLIMPICA
     {
         id: "yerbabuena",
