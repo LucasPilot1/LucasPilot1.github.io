@@ -257,8 +257,8 @@ const productos = [
         titulo: "Queso Semiduro",
         imagen: "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F30aaf853dbf4e75a4b73e4cb477f4dd2%2Fa9342590-7eff-11ec-a2e5-ed41a65448e8?alt=media&token=2409590c-0af7-488d-8b96-2772da3ece88",
         categoria: {
-            nombre: "Olimpica",
-            id: "olimpica"
+            nombre: "Corzo",
+            id: "corzo"
         },
         precio: 1000
     },
