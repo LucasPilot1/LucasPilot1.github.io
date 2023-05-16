@@ -657,7 +657,7 @@ const productos = [
         precio: 1000
     },
     {
-        id: "tocineta",
+        id: "deditos",
         titulo: "Dedito de Queso x 300gr",
         imagen: "https://calypso-recursos.s3.amazonaws.com/productos/8shjVjbIHUldoUm.jpg",
         categoria: {
