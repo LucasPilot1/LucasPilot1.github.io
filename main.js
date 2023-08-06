@@ -261,6 +261,26 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "lecheliquida",
+        titulo: "LECHE ENTERA TETRA PAK LATTI 200ML",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003216.png",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
+    {
+        id: "panos",
+        titulo: "PAÑO LIMPIÓN TIDY HOUSE 4 UND",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000215.png",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
     // CORZO
     {
         id: "semiduro",
@@ -706,6 +726,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "salsatoci",
+        titulo: "Mayonesa Sabor Tocineta x 1000g",
+        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/pfXoQPNtJ5K3GGu.jpg",
+        categoria: {
+            nombre: "Calypso",
+            id: "calypso"
+        },
+        precio: 1000
+    },
     // Carrefour
     {
         id: "mostaza",
@@ -851,6 +881,16 @@ const productos = [
         id: "vasoplastico",
         titulo: "Vaso desechable plástico normal",
         imagen: "https://supertiendascomunal.com/8315-thickbox_default/vaso-tami-12-onzas.jpg",
+        categoria: {
+            nombre: "Carrefour",
+            id: "carrefour"
+        },
+        precio: 1000
+    },
+    {
+        id: "mayonesa",
+        titulo: "Mayonesa Pompeya 1 Galón",
+        imagen: "https://pordomicilio.com.co/cienaga/wp-content/uploads/jet-engine-forms/27/2022/08/Galon-4150g-Mayonesa.png",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
