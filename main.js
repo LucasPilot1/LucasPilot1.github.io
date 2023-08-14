@@ -736,6 +736,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "pina",
+        titulo: "Salsa de Piña x 4500 gr",
+        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/8XcnAaayBfcQxi4.jpg",
+        categoria: {
+            nombre: "Calypso",
+            id: "calypso"
+        },
+        precio: 1000
+    },
     // Carrefour
     {
         id: "mostaza",
