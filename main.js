@@ -594,6 +594,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "stella",
+        titulo: "CAJA FRIA Cerveza Stella Artois En Botella 330 ML X6 Unds",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/916598-800-auto?v=638023931764830000&width=800&height=auto&aspect=true",
+        categoria: {
+            nombre: "Olimpica",
+            id: "olimpica"
+        },
+        precio: 1000
+    },
     // CARNES
     {
         id: "lomo",
