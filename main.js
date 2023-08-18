@@ -604,6 +604,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "smirnoff",
+        titulo: "Vodka Smirnoff Green Apple Lata 1000 ML X4 Unds",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/648406-800-auto?v=637626618138170000&width=800&height=auto&aspect=true",
+        categoria: {
+            nombre: "Olimpica",
+            id: "olimpica"
+        },
+        precio: 1000
+    },
     // CARNES
     {
         id: "lomo",
