@@ -281,6 +281,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "scott",
+        titulo: "PAÑO REUTILIZABLE DURAMAX 50 UND",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12004388.png",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
     // CORZO
     {
         id: "semiduro",
