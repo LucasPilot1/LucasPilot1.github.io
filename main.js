@@ -624,6 +624,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "monster",
+        titulo: "Bebida Energizante Monster 437ml",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1141205-800-auto?v=1780083765&width=800&height=auto&aspect=true",
+        categoria: {
+            nombre: "Olimpica",
+            id: "olimpica"
+        },
+        precio: 1000
+    },
     // CARNES
     {
         id: "lomo",
