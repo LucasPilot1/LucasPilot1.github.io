@@ -640,7 +640,7 @@ const productos = [
         imagen: "https://fegasacruz.org/wp-content/uploads/2020/07/carne-1.jpg",
         categoria: {
             nombre: "Olimpica",
-            id: "Olimpica"
+            id: "olimpica"
         },
         precio: 1000
     },
