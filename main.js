@@ -263,8 +263,8 @@ const productos = [
     },
     {
         id: "lecheliquida",
-        titulo: "LECHE ENTERA TETRA PAK LATTI 200ML",
-        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003216.png",
+        titulo: "LECHE ENTERA LARGA VIDA EN TETRA PAK UHT LATTI 900 ML",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000543.png",
         categoria: {
             nombre: "D1",
             id: "d1"
@@ -356,7 +356,7 @@ const productos = [
     {
         id: "naranja",
         titulo: "Malla de Naranja Olimpica X 2,5 Kg",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/612904-800-auto?v=637626516522770000&width=800&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1158828-800-auto?v=638313353731000000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -576,7 +576,7 @@ const productos = [
     {
         id: "kiwi",
         titulo: "Kiwi X Unidad",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/864684-800-auto?v=637907529186670000&width=800&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1158835-800-auto?v=638313357348870000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -634,17 +634,17 @@ const productos = [
         },
         precio: 1000
     },
-    // CARNES
     {
-        id: "lomo",
-        titulo: "Carne de Res - Lomo Ancho x 2500 gr",
+        id: "res",
+        titulo: "4kg de carne de res Posta Rosada la más pulpa sin abrir",
         imagen: "https://fegasacruz.org/wp-content/uploads/2020/07/carne-1.jpg",
         categoria: {
-            nombre: "Carnes",
-            id: "carnes"
+            nombre: "Olimpica",
+            id: "Olimpica"
         },
         precio: 1000
     },
+    // CARNES
     {
         id: "cerdo",
         titulo: "Carne de Cerdo - Palamilanesa",
@@ -890,7 +890,7 @@ const productos = [
     {
         id: "salsatomate",
         titulo: "Salsa de Tomate BARY 1000 gr",
-        imagen: "https://exitocol.vtexassets.com/arquivos/ids/13182792-800-auto?v=637900593029400000&width=800&height=auto&aspect=true",
+        imagen: "https://exitocol.vtexassets.com/arquivos/ids/19761957/SALSA-TOMATE-847262_a.jpg?v=638312497993200000",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
