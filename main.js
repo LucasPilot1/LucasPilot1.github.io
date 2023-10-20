@@ -291,6 +291,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "manos",
+        titulo: "JABÓN LÍQUIDO FLOR DE LOTO NATURAL FEELING 500 ML",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003223.png",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
     // CORZO
     {
         id: "semiduro",
