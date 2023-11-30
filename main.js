@@ -920,7 +920,7 @@ const productos = [
     {
         id: "vasoplastico16",
         titulo: "Vaso desechable plástico 16oz de los económicos",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ9HzqIP-BjWwf3U8eyOs6iFJ86g_tTFAmztkTxXiJ2g&s",
+        imagen: "https://serka.com.co/wp-content/uploads/sites/3/2022/09/Historias-1-31.png",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
@@ -950,7 +950,7 @@ const productos = [
     {
         id: "pina",
         titulo: "Salsa Piña Oro Miel la mas grande",
-        imagen: "https://pordomicilio.com.co/cienaga/wp-content/uploads/jet-engine-forms/27/2022/08/Galon-4150g-Mayonesa.png",
+        imagen: "https://www.sabrosisima.com.co/wp-content/uploads/2022/03/Gel-pina-4000gr.-doypack.jpg",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
