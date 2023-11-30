@@ -113,8 +113,8 @@ const productos = [
     },
     {
         id: "blanqueador",
-        titulo: "BLANQUEADOR BRILLA KING 2000 ML",
-        imagen: "https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000089.png?tr=w-449",
+        titulo: "BLANQUEADOR EN GEL BRILLA KING 1000 ML",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002695.png",
         categoria: {
             nombre: "D1",
             id: "d1"
@@ -262,16 +262,6 @@ const productos = [
         precio: 1000
     },
     {
-        id: "lecheliquida",
-        titulo: "LECHE ENTERA LARGA VIDA EN TETRA PAK UHT LATTI 900 ML",
-        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000543.png",
-        categoria: {
-            nombre: "D1",
-            id: "d1"
-        },
-        precio: 1000
-    },
-    {
         id: "panos",
         titulo: "PAÑO LIMPIÓN TIDY HOUSE 4 UND",
         imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000215.png",
@@ -295,6 +285,16 @@ const productos = [
         id: "manos",
         titulo: "JABÓN LÍQUIDO FLOR DE LOTO NATURAL FEELING 500 ML",
         imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003223.png",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
+    {
+        id: "vodka",
+        titulo: "VODKA RUSSKAYA 750 ML",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12005185.png",
         categoria: {
             nombre: "D1",
             id: "d1"
@@ -647,7 +647,7 @@ const productos = [
     {
         id: "res",
         titulo: "4kg de carne de res Posta Rosada la más pulpa sin abrir",
-        imagen: "https://fegasacruz.org/wp-content/uploads/2020/07/carne-1.jpg",
+        imagen: "https://i0.wp.com/todosobreganado.com/wp-content/uploads/2018/03/carne-de-res-colombiana.jpg?fit=1300%2C866&ssl=1",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -786,16 +786,6 @@ const productos = [
         },
         precio: 1000
     },
-    {
-        id: "pina",
-        titulo: "Salsa de Piña x 4500 gr",
-        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/8XcnAaayBfcQxi4.jpg",
-        categoria: {
-            nombre: "Calypso",
-            id: "calypso"
-        },
-        precio: 1000
-    },
     // Carrefour
     {
         id: "mostaza",
@@ -899,8 +889,8 @@ const productos = [
     },
     {
         id: "salsatomate",
-        titulo: "Salsa de Tomate BARY 1000 gr",
-        imagen: "https://exitocol.vtexassets.com/arquivos/ids/19761957/SALSA-TOMATE-847262_a.jpg?v=638312497993200000",
+        titulo: "Salsa de Tomate BARY la mas grande",
+        imagen: "https://exitocol.vtexassets.com/arquivos/ids/20148629-800-auto?v=638345489232630000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
@@ -929,7 +919,7 @@ const productos = [
     },
     {
         id: "vasoplastico16",
-        titulo: "Vaso desechable plástico 16oz",
+        titulo: "Vaso desechable plástico 16oz de los económicos",
         imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ9HzqIP-BjWwf3U8eyOs6iFJ86g_tTFAmztkTxXiJ2g&s",
         categoria: {
             nombre: "Carrefour",
@@ -939,8 +929,8 @@ const productos = [
     },
     {
         id: "vasoplastico",
-        titulo: "Vaso desechable plástico normal",
-        imagen: "https://supertiendascomunal.com/8315-thickbox_default/vaso-tami-12-onzas.jpg",
+        titulo: "Vaso desechable plástico 12oz de los económicos",
+        imagen: "https://distribuidorafp.com.co/wp-content/uploads/2020/12/Vaso-Desechable-Transparente-Tuc-50-und-x-12-oz.jpg",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
@@ -950,6 +940,16 @@ const productos = [
     {
         id: "mayonesa",
         titulo: "Mayonesa Pompeya 1 Galón",
+        imagen: "https://pordomicilio.com.co/cienaga/wp-content/uploads/jet-engine-forms/27/2022/08/Galon-4150g-Mayonesa.png",
+        categoria: {
+            nombre: "Carrefour",
+            id: "carrefour"
+        },
+        precio: 1000
+    },
+    {
+        id: "pina",
+        titulo: "Salsa Piña Oro Miel la mas grande",
         imagen: "https://pordomicilio.com.co/cienaga/wp-content/uploads/jet-engine-forms/27/2022/08/Galon-4150g-Mayonesa.png",
         categoria: {
             nombre: "Carrefour",
