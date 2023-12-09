@@ -446,7 +446,7 @@ const productos = [
     {
         id: "cocacola",
         titulo: "Gaseosa CocaCola Sabor Original Lata 235 Ml X6 Unds",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1078023-800-auto?v=638174305729770000&width=800&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1245690-800-auto?v=638373822148330000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -648,6 +648,16 @@ const productos = [
         id: "res",
         titulo: "4kg de carne de res Posta Rosada la más pulpa sin abrir",
         imagen: "https://i0.wp.com/todosobreganado.com/wp-content/uploads/2018/03/carne-de-res-colombiana.jpg?fit=1300%2C866&ssl=1",
+        categoria: {
+            nombre: "Olimpica",
+            id: "olimpica"
+        },
+        precio: 1000
+    },
+    {
+        id: "crispeta",
+        titulo: "Maíz Olimpica Pira 500 G",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/613409-800-auto?v=637626517430700000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
