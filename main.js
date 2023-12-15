@@ -222,16 +222,6 @@ const productos = [
         precio: 1000
     },
     {
-        id: "arandanos",
-        titulo: "JUGO DE ARÁNDANOS TREE FRUTS 946 ML",
-        imagen: "https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000616.png?tr=w-449",
-        categoria: {
-            nombre: "D1",
-            id: "d1"
-        },
-        precio: 1000
-    },
-    {
         id: "guantes",
         titulo: "GUANTE DOMÉSTICO TIDY HOUSE TALLA M",
         imagen: "https://ik.imagekit.io/instaleap/d1/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000218.png?tr=w-449",
@@ -658,6 +648,16 @@ const productos = [
         id: "crispeta",
         titulo: "Maíz Olimpica Pira 500 G",
         imagen: "https://olimpica.vtexassets.com/arquivos/ids/613409-800-auto?v=637626517430700000&width=800&height=auto&aspect=true",
+        categoria: {
+            nombre: "Olimpica",
+            id: "olimpica"
+        },
+        precio: 1000
+    },
+    {
+        id: "arandanos",
+        titulo: "Jugo L'onda Cranberry 1,89 ML (Que NO sea light)",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/765469-800-auto?v=637806424308700000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
