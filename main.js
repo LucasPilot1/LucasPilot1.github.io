@@ -291,6 +291,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "encendedor",
+        titulo: "Encendedores",
+        imagen: "https://dlucas.com.pe/wp-content/uploads/2021/03/encendedor-desechable2.jpg",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
     // CORZO
     {
         id: "semiduro",
@@ -961,6 +971,16 @@ const productos = [
         id: "pina",
         titulo: "Salsa Piña Oro Miel la mas grande",
         imagen: "https://www.sabrosisima.com.co/wp-content/uploads/2022/03/Gel-pina-4000gr.-doypack.jpg",
+        categoria: {
+            nombre: "Carrefour",
+            id: "carrefour"
+        },
+        precio: 1000
+    },
+    {
+        id: "mantequilla",
+        titulo: "Mantequilla La Fina mesa con sal x250g",
+        imagen: "https://solofruver.com/wp-content/uploads/2021/12/MANTEQUILLA-LA-FINA-CON-SAL.jpg",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
