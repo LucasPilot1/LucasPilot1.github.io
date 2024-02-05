@@ -45,7 +45,7 @@ function cargarProductosCarrito() {
         divProducto.classList.add("carrito-producto");
         divProducto.innerHTML = `
           <div class="carrito-producto-titulo">
-            <h3>- ${producto.cantidad} : ${producto.titulo}</h3>
+            <h4>- ${producto.cantidad} : ${producto.titulo}</h4>
           </div>
         `;
         divCategoria.append(divProducto);
@@ -53,14 +53,32 @@ function cargarProductosCarrito() {
     }
 
     const botonCopiar = document.createElement('button');
-    botonCopiar.id = 'boton-copiar';
-    botonCopiar.className = 'boton';
-    botonCopiar.textContent = 'Copiar al portapapeles';
-    botonCopiar.addEventListener('click', () => {
-      navigator.clipboard.writeText(carritoTexto);
-      alert('La información se ha copiado al portapapeles');
-    });
-    contenedorCarritoAcciones.insertBefore(botonCopiar, contenedorCarritoAcciones.firstChild);
+botonCopiar.id = 'boton-copiar';
+botonCopiar.className = 'boton';
+botonCopiar.textContent = 'Copiar al portapapeles';
+botonCopiar.addEventListener('click', () => {
+    const textarea = document.createElement('textarea');
+
+    let carritoTextoConCantidad = '';
+    for (const categoria in categorias) {
+        const productosCategoria = categorias[categoria];
+        carritoTextoConCantidad += `${categoria}\n`;
+        productosCategoria.forEach(producto => {
+            carritoTextoConCantidad += `- ${producto.cantidad} : ${producto.titulo}\n`;
+        });
+        carritoTextoConCantidad += '\n';
+    }
+
+    textarea.value = carritoTextoConCantidad;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    alert('La información se ha copiado al portapapeles');
+});
+
+contenedorCarritoAcciones.insertBefore(botonCopiar, contenedorCarritoAcciones.firstChild);
+
 
   } else {
     contenedorCarritoVacio.classList.remove("disabled");
