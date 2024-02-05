@@ -364,7 +364,22 @@ main {
         color: var(--clr-gray);
     }
 
-    .open-menu, .close-menu {
+    .open-menu {
+        background-color: var(--clr-main-light); /* Cambia 'purple' por el color morado que desees */
+        color: white; /* Cambia 'white' por el color del texto que desees */
+        border: 0;
+        font-size: 2rem;
+        cursor: pointer;
+        position: fixed;
+        top: 0; /* Cambia 'bottom' a 'top' para que esté arriba */
+        right: 0;
+        margin: 20px;
+        padding: 10px; /* Ajusta el relleno según tus preferencias */
+        border-radius: 50%; /* Esto hace que el botón tenga forma redonda */
+    }
+    
+
+    .close-menu {
         background-color: transparent;
         color: var(--clr-gray);
         border: 0;
