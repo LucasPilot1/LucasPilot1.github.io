@@ -44,7 +44,7 @@ function cargarProductosCarrito() {
         const divProducto = document.createElement("div");
         divProducto.classList.add("carrito-producto");
         divProducto.innerHTML = `
-          <div class="carrito-producto-titulo">
+          <div class="carrito-producto-cantidad">
             <h4>- ${producto.cantidad} : ${producto.titulo}</h4>
           </div>
         `;
@@ -78,6 +78,7 @@ botonCopiar.addEventListener('click', () => {
 });
 
 contenedorCarritoAcciones.insertBefore(botonCopiar, contenedorCarritoAcciones.firstChild);
+
 
 
   } else {
