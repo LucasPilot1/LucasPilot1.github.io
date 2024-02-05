@@ -286,6 +286,10 @@ main {
     display: none;
 }
 
+.carrito-acciones-derecha {
+    display: none;
+}
+
 .disabled {
     display: none;
 }
