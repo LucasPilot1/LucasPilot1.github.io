@@ -45,7 +45,7 @@ function cargarProductosCarrito() {
         divProducto.classList.add("carrito-producto");
         divProducto.innerHTML = `
           <div class="carrito-producto-titulo">
-            <h3>- ${producto.titulo}</h3>
+            <h3>- ${producto.cantidad} : ${producto.titulo}</h3>
           </div>
         `;
         divCategoria.append(divProducto);
