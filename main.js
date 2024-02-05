@@ -695,6 +695,16 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "burger",
+        titulo: "Carne de Hamburguesa",
+        imagen: "https://gastronomicainternacional.com/wp-content/uploads/2020/04/carne-hamburguesa-2-1024x576.jpg",
+        categoria: {
+            nombre: "Carnes",
+            id: "carnes"
+        },
+        precio: 1000
+    },
     // Calypso
     {
         id: "francesa",
@@ -809,8 +819,8 @@ const productos = [
     // Carrefour
     {
         id: "mostaza",
-        titulo: "Mostaza Bary 1 Galón",
-        imagen: "https://alianza-zapatoca.s3.amazonaws.com/prod/images/products/optimized/503702-01__1000.jpg",
+        titulo: "Mostaza Bary la mas grande que tenga",
+        imagen: "https://distrimarketsas.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTA1MzY1LCJwdXIiOiJibG9iX2lkIn19--d368264d1a05d09cf16d5f30fa09785ce1f3d335/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZml0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--1420d7fd3d20057726f0ef3c0043db24ca0403be/salsa-con-mostaza-bary-180gr.jpg?locale=es",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
@@ -1101,7 +1111,7 @@ const productos = [
     {
         id: "domo",
         titulo: "Vasos Domo con Tapa 16 oz",
-        imagen: "https://nuevoedenbolivar.com.ve/image/cache/catalog/vasos-con-tapa-domo-transparentes-50-unidades-D_NQ_NP_708915-MLV43839106215_102020-F-500x500.jpg",
+        imagen: "https://www.plasticossanjose.com/wp-content/uploads/2017/12/WhatsApp-Image-2020-08-20-at-3.54.48-PM-2-e1598023134306.jpeg",
         categoria: {
             nombre: "Casa del Panadero",
             id: "panadero"
@@ -1111,7 +1121,7 @@ const productos = [
     {
         id: "gusanos",
         titulo: "GOMAS GRISSLY GUSANOS Grande",
-        imagen: "https://copservir.vtexassets.com/arquivos/ids/771844/GOMAS-GRISSLY-GUSANOS_F.png?v=637951128673700000",
+        imagen: "https://colsubsidiogrocery.vtexassets.com/arquivos/ids/177557/7702011129741_1.png?v=638213387077300000",
         categoria: {
             nombre: "Casa del Panadero",
             id: "panadero"
