@@ -218,8 +218,14 @@ main {
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
-    gap: 3rem;
+    gap: 1.5rem;
 }
+
+.carrito-producto-titulo {
+    text-align: left; /* Alinea el texto a la izquierda */
+    flex-grow: 1; /* Ocupa todo el espacio disponible */
+}
+
 
 .carrito-producto-imagen{
     width: 4rem;
