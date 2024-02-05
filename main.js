@@ -646,7 +646,7 @@ const productos = [
     },
     {
         id: "res",
-        titulo: "4kg de carne de res Posta Rosada la más pulpa sin abrir",
+        titulo: "4kg de carne de res Posta Rosada la más pulpa abierta",
         imagen: "https://i0.wp.com/todosobreganado.com/wp-content/uploads/2018/03/carne-de-res-colombiana.jpg?fit=1300%2C866&ssl=1",
         categoria: {
             nombre: "Olimpica",
