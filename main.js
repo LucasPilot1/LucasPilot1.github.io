@@ -1137,7 +1137,118 @@ const productos = [
             id: "panadero"
         },
         precio: 1000
-    }
+    },
+    // Estanco La 30
+    {
+        id: "agua",
+        titulo: "Pacas de agua en botella",
+        imagen: "https://copservir.vtexassets.com/arquivos/ids/766672/AGUA-CRISTAL_F.png?v=637950282434970000",
+        categoria: {
+            nombre: "Estanco La 30",
+            id: "estanco"
+        },
+        precio: 1000
+    },
+        {
+        id: "light",
+        titulo: "canasta de Águila Light",
+        imagen: "https://jotajotafoods.com/wp-content/uploads/2022/06/CER00037.jpg",
+        categoria: {
+            nombre: "Estanco La 30",
+            id: "estanco"
+        },
+        precio: 1000
+    },
+    {
+    id: "tradicional",
+    titulo: "canasta de Águila Tradicional",
+    imagen: "https://sushilight.com/wp-content/uploads/2019/05/Aguila.jpg",
+    categoria: {
+        nombre: "Estanco La 30",
+        id: "estanco"
+    },
+    precio: 1000
+},
+{
+id: "club",
+titulo: "canasta de Clubcolombia dorada",
+imagen: "https://jotajotafoods.com/wp-content/uploads/2022/05/CER00005.jpg",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "coronita",
+titulo: "cajas de Coronita",
+imagen: "https://bevgo.com.co/wp-content/uploads/2021/03/82038.jpg",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "gatorade",
+titulo: "pacas de Gatorade",
+imagen: "https://cdn1.totalcommerce.cloud/gastronomy/product-zoom/es/bebida-gatorade-tropical-fruit-500ml-1.webp",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "gingerestanco",
+titulo: "pacas de Ginger",
+imagen: "https://jumbocolombiaio.vtexassets.com/arquivos/ids/559678-800-800?v=638411087952430000&width=800&height=800&aspect=true",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "poker",
+titulo: "canasta de Poker",
+imagen: "https://jotajotafoods.com/wp-content/uploads/2021/12/CER00028-1.jpg",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "smirnoffestanco",
+titulo: "caja de Smirnoff Icee Manzana",
+imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsUs1LGBH0g9GQNZMBgXIw39xmPwkwHmCsQg&usqp=CAU",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "soda",
+titulo: "pacas de Soda Schweppes",
+imagen: "https://d2d21jw8en5l3a.cloudfront.net/vendty2_db_4188_TIEND2016/imagenes_productos/OIP%20(72).jpg",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "stellaestanco",
+titulo: "caja de Stella",
+imagen: "https://dislicoresqa.vtexassets.com/arquivos/ids/282104/370519-CERVEZA_STELLA_ARTOIS_SIXPACK_330ML.png?v=637901730325130000",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
 ];
 
 const contenedorProductos = document.querySelector("#contenedor-productos");

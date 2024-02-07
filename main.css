@@ -296,6 +296,41 @@ main {
     display: none;
 }
 
+.carrito-producto-cantidad {
+    display: flex;
+    flex-direction: column; /* Establece la disposición de los elementos en columna */
+    align-items: center; /* Alinea horizontalmente */
+}
+
+.cantidad-numero {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Alinea horizontalmente */
+}
+
+.botones-contenedor {
+    display: flex;
+    justify-content: space-between; /* Espacia los botones */
+    width: 100%; /* Asegura que los botones ocupen todo el ancho */
+    margin-top: 0.5rem; /* Ajusta el margen superior según sea necesario */
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+.btn-sumar,
+.btn-quitar {
+    background-color: var(--clr-main-light);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-sumar:hover,
+.btn-quitar:hover {
+    background-color: #0056b3;
+}
+
+
 .disabled {
     display: none;
 }
