@@ -708,7 +708,7 @@ const productos = [
     // Calypso
     {
         id: "francesa",
-        titulo: "Papa rizada x 2500g",
+        titulo: "IPA114 PAPA FRITTERS RIZADA X 2.5Kg",
         imagen: "https://calypso-recursos.s3.amazonaws.com/productos/eGZN5NwNUSua3JK.jpg",
         categoria: {
             nombre: "Calypso",
