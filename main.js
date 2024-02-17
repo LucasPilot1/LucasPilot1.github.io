@@ -674,6 +674,26 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "canela",
+        titulo: "Condimento El Rey Canela Seleccionada 15 G",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/957229-1200-auto?v=638047464304200000&width=1200&height=auto&aspect=true",
+        categoria: {
+            nombre: "Olimpica",
+            id: "olimpica"
+        },
+        precio: 1000
+    },
+    {
+        id: "jengibre",
+        titulo: "250 gr de Jengibre",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/735464-1200-auto?v=637782319705830000&width=1200&height=auto&aspect=true",
+        categoria: {
+            nombre: "Olimpica",
+            id: "olimpica"
+        },
+        precio: 1000
+    },
     // CARNES
     {
         id: "cerdo",
@@ -1132,6 +1152,16 @@ const productos = [
         id: "pitillos",
         titulo: "Pitillos de Colores con empaque individual",
         imagen: "https://http2.mlstatic.com/D_NQ_NP_644732-MCO42901159350_072020-O.jpg",
+        categoria: {
+            nombre: "Casa del Panadero",
+            id: "panadero"
+        },
+        precio: 1000
+    },
+    {
+        id: "chips",
+        titulo: "bolsa de chips de chocolate",
+        imagen: "https://pepitasybolitas.com/wp-content/uploads/2020/06/Chips-Chocolate-Negro-1.jpg",
         categoria: {
             nombre: "Casa del Panadero",
             id: "panadero"
