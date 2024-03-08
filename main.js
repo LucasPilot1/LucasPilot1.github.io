@@ -301,6 +301,26 @@ const productos = [
         },
         precio: 1000
     },
+    {
+        id: "ginebra",
+        titulo: "GINEBRA DAFNE 700 ML",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003805.png",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
+    {
+        id: "zdenaranja",
+        titulo: "JUGO DE NARANJA FRESCO TREE FRUTS 1000 ML",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000380.png",
+        categoria: {
+            nombre: "D1",
+            id: "d1"
+        },
+        precio: 1000
+    },
     // CORZO
     {
         id: "semiduro",
@@ -356,7 +376,7 @@ const productos = [
     {
         id: "patotanque",
         titulo: "Limpiador Inodoro Pato Tanque Pastilla Marina 3 Pack 120g",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1060684-800-auto?v=638155561022830000&width=800&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1320192-800-auto?v=638446576715100000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -436,7 +456,7 @@ const productos = [
     {
         id: "ziploc",
         titulo: "Bolsa Ziploc Reutilizable Grandes Para Organizar Slider 10 Unds",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1060741-800-auto?v=638155561544700000&width=800&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1316631-800-auto?v=638443147853000000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
