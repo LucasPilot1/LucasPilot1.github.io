@@ -356,7 +356,7 @@ const productos = [
     {
         id: "lechuga",
         titulo: "Lechuga Olimpica Verde Cresca Hidropónica X 180 G",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/735623-1600-auto?v=637782321222600000&width=1600&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1367992-1600-auto?v=638483795512370000&width=1600&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -406,7 +406,7 @@ const productos = [
     {
         id: "cafe",
         titulo: "Café Nescafé Matinal 82 G",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/717294-800-auto?v=637756102178570000&width=800&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1418273-800-auto?v=638507236283100000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -446,7 +446,7 @@ const productos = [
     {
         id: "tomate",
         titulo: "Tomate Verde X Unidad",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/865371-800-auto?v=637908070947270000&width=800&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/865372-800-auto?v=637908070957900000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -456,7 +456,7 @@ const productos = [
     {
         id: "ziploc",
         titulo: "Bolsa Ziploc Reutilizable Grandes Para Organizar Slider 10 Unds",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1316631-800-auto?v=638443147853000000&width=800&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1387513-800-auto?v=638493522840700000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -466,7 +466,7 @@ const productos = [
     {
         id: "cocacola",
         titulo: "Gaseosa CocaCola Sabor Original Lata 235 Ml X6 Unds",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/1245690-800-auto?v=638373822148330000&width=800&height=auto&aspect=true",
+        imagen: "https://lavaquita.co/cdn/shop/products/supermercado_la_vaquita_supervaquita_cocacola_original_6u_512x512.jpg?v=1630162198",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -516,7 +516,7 @@ const productos = [
     {
         id: "cebollin",
         titulo: "Cebollín",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/865295-800-auto?v=637908070026970000&width=800&height=auto&aspect=true",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/865296-800-auto?v=637908070045400000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -960,7 +960,7 @@ const productos = [
     {
         id: "salsatomate",
         titulo: "Salsa de Tomate BARY la mas grande",
-        imagen: "https://exitocol.vtexassets.com/arquivos/ids/20148629-800-auto?v=638345489232630000&width=800&height=auto&aspect=true",
+        imagen: "https://bary.s3.amazonaws.com/media/20240522131509/salsa-de-tomate-preview.png",
         categoria: {
             nombre: "Carrefour",
             id: "carrefour"
