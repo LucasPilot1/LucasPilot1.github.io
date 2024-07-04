@@ -294,7 +294,7 @@ const productos = [
     {
         id: "encendedor",
         titulo: "Encendedores",
-        imagen: "https://dlucas.com.pe/wp-content/uploads/2021/03/encendedor-desechable2.jpg",
+        imagen: "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002792.png",
         categoria: {
             nombre: "D1",
             id: "d1"
@@ -414,16 +414,6 @@ const productos = [
         precio: 1000
     },
     {
-        id: "cerezas",
-        titulo: "Cerezas La Coruña Marraschino 500 G",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/613433-800-auto?v=637626517473130000&width=800&height=auto&aspect=true",
-        categoria: {
-            nombre: "Olimpica",
-            id: "olimpica"
-        },
-        precio: 1000
-    },
-    {
         id: "naranjaimportada",
         titulo: "Naranja Importada X Unidad",
         imagen: "https://olimpica.vtexassets.com/arquivos/ids/735585-800-auto?v=637782320844600000&width=800&height=auto&aspect=true",
@@ -497,16 +487,6 @@ const productos = [
         id: "pepino",
         titulo: "Pepino x Unidad",
         imagen: "https://olimpica.vtexassets.com/arquivos/ids/865297-800-auto?v=637908070057770000&width=800&height=auto&aspect=true",
-        categoria: {
-            nombre: "Olimpica",
-            id: "olimpica"
-        },
-        precio: 1000
-    },
-    {
-        id: "takis",
-        titulo: "TAKIS",
-        imagen: "https://olimpica.vtexassets.com/arquivos/ids/869579-800-auto?v=637922821154300000&width=800&height=auto&aspect=true",
         categoria: {
             nombre: "Olimpica",
             id: "olimpica"
@@ -747,9 +727,9 @@ const productos = [
     },
     // Calypso
     {
-        id: "francesa",
-        titulo: "IPA114 PAPA FRITTERS RIZADA X 2.5Kg",
-        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/eGZN5NwNUSua3JK.jpg",
+        id: "cheddar",
+        titulo: "QUESO CHEDDAR TAJADO 184 UND X 2.27Kg",
+        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/NnoVxCoIhjCZo3j.jpg",
         categoria: {
             nombre: "Calypso",
             id: "calypso"
@@ -757,9 +737,9 @@ const productos = [
         precio: 1000
     },
     {
-        id: "casco",
-        titulo: "Papa Cascos Sazonada x 2500 g",
-        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/ybTAU6XPvf16gXa.jpg",
+        id: "francesa",
+        titulo: "IPA114 PAPA FRITTERS RIZADA X 2.5Kg",
+        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/eGZN5NwNUSua3JK.jpg",
         categoria: {
             nombre: "Calypso",
             id: "calypso"
@@ -807,16 +787,6 @@ const productos = [
         precio: 1000
     },
     {
-        id: "deditos",
-        titulo: "Dedito de Queso x 300gr",
-        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/8shjVjbIHUldoUm.jpg",
-        categoria: {
-            nombre: "Calypso",
-            id: "calypso"
-        },
-        precio: 1000
-    },
-    {
         id: "paparipio",
         titulo: "Papa Cabello de Angel Premium x 1.000Gr",
         imagen: "https://calypso-recursos.s3.amazonaws.com/productos/y9wtRDoycim66qB.jpg",
@@ -857,6 +827,26 @@ const productos = [
         precio: 1000
     },
     // Carrefour
+    {
+        id: "porcionar",
+        titulo: "Bolsas para porcionar",
+        imagen: "https://static.wixstatic.com/media/41f8d3_d21bcea9f38d3f618b55f3218d1c0b2c.gif",
+        categoria: {
+            nombre: "Carrefour",
+            id: "carrefour"
+        },
+        precio: 1000
+    },
+    {
+        id: "cerezas",
+        titulo: "Cerezas La Coruña la más grande que tengan",
+        imagen: "https://olimpica.vtexassets.com/arquivos/ids/613433-800-auto?v=637626517473130000&width=800&height=auto&aspect=true",
+        categoria: {
+            nombre: "Carrefour",
+            id: "carrefour"
+        },
+        precio: 1000
+    },
     {
         id: "mostaza",
         titulo: "Mostaza Bary la mas grande que tenga",
@@ -1069,16 +1059,6 @@ const productos = [
         precio: 1000
     },
     {
-        id: "porcionar",
-        titulo: "Bolsas para porcionar",
-        imagen: "https://static.wixstatic.com/media/41f8d3_d21bcea9f38d3f618b55f3218d1c0b2c.gif",
-        categoria: {
-            nombre: "Casa del Panadero",
-            id: "panadero"
-        },
-        precio: 1000
-    },
-    {
         id: "separadores",
         titulo: "Separadores Lamina Plastico 15x15 Separar Carne Hamburguesa",
         imagen: "https://http2.mlstatic.com/D_NQ_NP_814688-MCO52055852963_102022-O.jpg",
@@ -1188,11 +1168,22 @@ const productos = [
         },
         precio: 1000
     },
+    // Pesquera Del Mar
+    {
+        id: "casco",
+        titulo: "Papa Cascos Sazonada x 2500 g",
+        imagen: "https://calypso-recursos.s3.amazonaws.com/productos/ybTAU6XPvf16gXa.jpg",
+        categoria: {
+            nombre: "Pesquera Del Mar",
+            id: "pesquera"
+        },
+        precio: 1000
+    },
     // Estanco La 30
     {
         id: "agua",
         titulo: "Pacas de agua en botella",
-        imagen: "https://copservir.vtexassets.com/arquivos/ids/766672/AGUA-CRISTAL_F.png?v=637950282434970000",
+        imagen: "https://walmartsv.vtexassets.com/arquivos/ids/415213/Agua-Cristal-600-Ml-Botella-12Pk-2-5325.jpg?v=638444937760670000",
         categoria: {
             nombre: "Estanco La 30",
             id: "estanco"
@@ -1292,7 +1283,7 @@ precio: 1000
 {
 id: "stellaestanco",
 titulo: "caja de Stella",
-imagen: "https://dislicoresqa.vtexassets.com/arquivos/ids/282104/370519-CERVEZA_STELLA_ARTOIS_SIXPACK_330ML.png?v=637901730325130000",
+imagen: "https://licoresmedellin.com/cdn/shop/files/6_PACK_CERVEZA_STELLA_ARTOIS_VIDRIO_300CC.jpg?v=1715689529&width=480",
 categoria: {
     nombre: "Estanco La 30",
     id: "estanco"
