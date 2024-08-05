@@ -1161,7 +1161,7 @@ const productos = [
     {
         id: "chips",
         titulo: "bolsa de chips de chocolate",
-        imagen: "https://pepitasybolitas.com/wp-content/uploads/2020/06/Chips-Chocolate-Negro-1.jpg",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5wmNi8Whw8kMHyfIDaeAGlm5j5ldr4DNiVw&s",
         categoria: {
             nombre: "Casa del Panadero",
             id: "panadero"
@@ -1394,7 +1394,7 @@ function borrarCarrito() {
 function configurarAutoborrado() {
     const ahora = new Date();
     const proximaBorrado = new Date(ahora);
-    proximaBorrado.setHours(6, 15, 0, 0); // Configura la hora a las 6:15 am
+    proximaBorrado.setHours(16, 10, 0, 0); // Configura la hora a las 6:15 am
 
     if (ahora > proximaBorrado) {
         proximaBorrado.setDate(proximaBorrado.getDate() + 1);
