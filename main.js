@@ -1382,3 +1382,30 @@ function actualizarNumerito() {
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito; 
 }
+
+// Función para borrar el carrito
+function borrarCarrito() {
+    productosEnCarrito = [];
+    localStorage.removeItem("productos-en-carrito");
+    actualizarNumerito();
+}
+
+// Configurar autoborrado diario a las 6:15 am hora colombiana
+function configurarAutoborrado() {
+    const ahora = new Date();
+    const proximaBorrado = new Date(ahora);
+    proximaBorrado.setHours(6, 15, 0, 0); // Configura la hora a las 6:15 am
+
+    if (ahora > proximaBorrado) {
+        proximaBorrado.setDate(proximaBorrado.getDate() + 1);
+    }
+
+    const tiempoHastaBorrado = proximaBorrado - ahora;
+
+    setTimeout(() => {
+        borrarCarrito();
+        setInterval(borrarCarrito, 24 * 60 * 60 * 1000); // Cada 24 horas
+    }, tiempoHastaBorrado);
+}
+
+configurarAutoborrado();
