@@ -1394,7 +1394,7 @@ function borrarCarrito() {
 function configurarAutoborrado() {
     const ahora = new Date();
     const proximaBorrado = new Date(ahora);
-    proximaBorrado.setHours(16, 10, 0, 0); // Configura la hora a las 6:15 am
+    proximaBorrado.setHours(16, 50, 0, 0); // Configura la hora a las 6:15 am
 
     if (ahora > proximaBorrado) {
         proximaBorrado.setDate(proximaBorrado.getDate() + 1);
