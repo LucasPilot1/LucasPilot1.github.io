@@ -1290,6 +1290,46 @@ categoria: {
 },
 precio: 1000
 },
+{
+id: "antioqueazul7",
+titulo: "Antioqueño Azul 750",
+imagen: "https://licoresmedellin.com/cdn/shop/files/6_PACK_CERVEZA_STELLA_ARTOIS_VIDRIO_300CC.jpg?v=1715689529&width=480",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "antioqueazul3",
+titulo: "Antioqueño Azul 375",
+imagen: "https://licoresmedellin.com/cdn/shop/files/6_PACK_CERVEZA_STELLA_ARTOIS_VIDRIO_300CC.jpg?v=1715689529&width=480",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "antioqueverde7",
+titulo: "Antioqueño Verde 750",
+imagen: "https://licoresmedellin.com/cdn/shop/files/6_PACK_CERVEZA_STELLA_ARTOIS_VIDRIO_300CC.jpg?v=1715689529&width=480",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
+{
+id: "antioquverde3",
+titulo: "Antioqueño Verde 375",
+imagen: "https://licoresmedellin.com/cdn/shop/files/6_PACK_CERVEZA_STELLA_ARTOIS_VIDRIO_300CC.jpg?v=1715689529&width=480",
+categoria: {
+    nombre: "Estanco La 30",
+    id: "estanco"
+},
+precio: 1000
+},
 ];
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
