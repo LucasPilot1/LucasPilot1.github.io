@@ -1,5 +1,5 @@
-// PRODUCTOS
-const productos = [
+// PRODUCTOS le quité la t a "const productos"
+cons productos = [
     // D1
     {
         id: "miel",
